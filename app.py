@@ -64,7 +64,7 @@ if uploaded_file is not None:
     # get detection result
 
     result_image=results[0].plot()
-
+ 
     # display detection result
 
     st.subheader("Detection Result")
